@@ -13,7 +13,7 @@ class RestaurantEager {
 
 //Lazy instance creation
 class RestaurantLazy{
-    public static RestaurantLazy obj;
+    public static RestaurantLazy obj = null;
     private RestaurantLazy(){
         System.out.println("Lazy instance");
     }
@@ -37,8 +37,11 @@ public class SingletonExample {
         System.out.println(obj2);
 
         //Lazy
-//        RestaurantLazy obj3 = RestaurantLazy.getInstance();
-//        RestaurantLazy obj4 = RestaurantLazy.getInstance();
+        RestaurantLazy obj3 = RestaurantLazy.getInstance();
+        RestaurantLazy obj4 = RestaurantLazy.getInstance();
+
+        System.out.println(obj3);
+        System.out.println(obj4);
 
     }
 }
