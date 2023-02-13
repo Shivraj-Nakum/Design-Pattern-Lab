@@ -8,11 +8,15 @@
 
 ## Creational Design Pattern
 1) Factory Pattern 
+
 -used for creating similar types of objects without specifying their concrete clases.
+
 -used when objects are of same type but vary a little in terms of implimentation/data.
 
 2) Abstract Factory Pattern
+
 -used for creating family of similar types of objects without specifying their concrete clases.
+
 -when we need to specify 2 things while creating object (e.g.- while creating mobile we need to specify Brand and Model_no.)
 
 3) Builder Pattern
