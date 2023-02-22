@@ -13,7 +13,7 @@ class RestaurantEager {
 
 //Lazy instance creation
 class RestaurantLazy{
-    public static RestaurantLazy obj = null;
+    public static RestaurantLazy obj ;
     private RestaurantLazy(){
         System.out.println("Lazy instance");
     }
