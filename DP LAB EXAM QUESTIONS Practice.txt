@@ -1,0 +1,52 @@
+1. You are developing a software application that will generate different types of reports. The reports will have different styles and formats based on the user's preference. Which design pattern would you use to generate the reports?
+-Abstract Factory
+
+2. You are building a system that can handle multiple types of payment methods (e.g., credit card, PayPal, bank transfer). Each payment method has its own implementation and validation rules. Which design pattern would you use to handle this scenario?  
+-FACTORY
+
+3. You are designing a software application that will create and manage different types of documents (e.g., Word, PDF, Excel). Each document type has its own set of properties and formatting rules. Which design pattern would you use to handle this scenario? 
+-Factory
+
+4. You are working on a project where you need to create an object that has a complex initialization process. Which design pattern would you use to create the object? 
+-Builder
+
+5. You are designing a graphical user interface (GUI) that will allow users to select different components to create a custom view. The components have different types and can be arranged in different ways. Which design pattern would you use to handle this scenario? 
+-composite
+
+6. You are building a system that will integrate with an external service that has a different interface than your system. Which design pattern would you use to handle this scenario?
+-Adapter
+
+7. You are working on a project where you need to optimize the memory usage of the system. Which design pattern would you use to handle this scenario?
+-Flywieght
+
+9. You are building a system where one object needs to be notified when another object's state changes. Which design pattern would you use to handle this scenario?
+-Observer
+
+10. You are working on a project where you need to save and restore the state of an object. Which design pattern would you use to handle this scenario?
+-Memento
+
+11. provide a design pattern representing  a file system  , which contains file and folders , each has a name  and a size . A folder may contain other folder or files . the size of folder is the sum of included file sizes.
+-Composite
+
+12. A news agency gather news and publish them to different subscribers. We need to create a framework for the agency to be able to inform immediately, when event occurs, its subscribers
+about the event. The subscribers can receive the news in different ways: Emails, SMS, ... The solution need to be extensive enough to support new types of subscribers(maybe new communication technologies will appear), and new types of news (political, business, technology, etc.)
+PROVIDE A DESIGN PATTERN FOR ABOVE
+-Observer
+
+13. You are developing a chat application that supports different types of messages (e.g. text, images, audio, video). When a user sends a message, it should be displayed to all other users in the chat, regardless of the message type.
+-observer
+
+14. You are building a social media platform that allows users to post updates and interact with each other. Users can follow other users to see their updates, and can also create groups to share updates with specific sets of users.
+-composite
+
+15. You are creating a music streaming service that needs to support playlists. Users can create and manage their own playlists, and can also share playlists with other users. Playlists can contain both individual songs and other playlists.
+-composite
+
+16. You are developing a game that has multiple levels and different types of enemies. Each level should have a different layout and set of enemies, and the game should be able to handle an arbitrary number of levels.
+-factory
+
+17.You are developing a system for managing a fleet of vehicles (e.g. cars, trucks, buses, etc.). The system should be able to track the location and status of each vehicle in real time, and should provide alerts for maintenance and repair needs.
+-Observer
+
+18.You are building a weather forecasting application that needs to process data from multiple sources (e.g. satellites, weather stations, radar systems, etc.). The application should be able to provide accurate and up-to-date forecasts for a variety of locations and weather conditions.
+-adapter
